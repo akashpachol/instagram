@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.insta{
+    background-color:#fff;
+    width: 100%;
+    
+    display: flex;
+    justify-content:start;
+    
+}
+.aside,.right-section,.middle-section{
+    padding-top: 3rem;
+}
+/* sidebar section styling */
+.aside{
+    width: 15%;
+    top: 0;
+    position: sticky;
+    height: 715px;
+    
+    border-right: 0.5px solid black;
+  
+}
+.logo{
+    width: 100%;
+    padding-left: 10px;
+}
+.logo-img{
+    margin-left: 5%;
+    width: 119px;
+    height: 42px;
+   padding-left: 5fr;
+   color: rgb(0,0,0);
+   cursor: pointer;
+}
+.side_elemets{
+    margin-top: 20%;
+}
+.side_elemet1{
+   margin-top: 4%;
+    width: 88%;
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+    margin-left: 5%;
+    margin-right: 7%;
+    gap: 15px;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.side_elemet1:hover{
+    background-color:#CCCCCC;
+    border-radius: 15px;
+}
+.icon{
+    font-size: 22px;
+}
+.side_heading{
+    font-size: 17px;
+  
+    
+}
+.selected{
+    font-weight: 600;
+}
+
+.aside-footer{
+    margin-top: 5rem;
+}
+.avatar {
+
+    width:27px;
+    height: 27px;
+    border-radius: 50%;
+  }
+  #main-icon{
+    display: none;
+  }
+  @media screen and (max-width: 992px){
+    .side_heading{
+        font-size: 1px;
+      
+         
+    }
+    .aside{
+        width: 10%;
+    }
+    .logo-img{
+        display: none;
+    }
+    #main-icon{
+        margin-left:5px ;
+        display:inline;
+        font-size: 25px;
+      }
+      .right-section{
+        width: 25%;
+        }
+        .middle-section{
+            width: 40%;
+        }
+  }
+
+  /* sidebar sections ending */
+  /* right section styling */
+.right-section{
+width: 35%;
+}
+.middle-section{
+    width: 50%;
+}
+.right_side_elemet{
+
+     width: 60%;
+     height: 3rem;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 5%;
+     margin-right: 7%;
+     
+     align-items: center;
+     padding-left: 10px;
+ }
+ .right_avatar{
+    width:50px;
+    height: 47px;
+    border-radius: 50%;
+    cursor: pointer;
+   
+ }
+ .right_card{
+    display: flex;
+    justify-content:start;
+    gap: 15px;
+ }
+ .sub_text{
+    color: #737373;
+    font-size: 12px;
+ }
+ .right_link{
+    color: #0095F6;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+ }
+ .data_suggest{
+    font-size: 16px;
+ }
+ .right_link2{
+    text-decoration: none;
+    color: #737373;
+    padding-left: 1.5rem;
+ }
+ .Suggested{
+    margin-top: 10px;
+ }
+ .follows{
+    margin-top: 2%;
+ }
+ .right_content{
+    margin-top: 8%;
+ }
+  /* right sections ending */
+
+.circle{
+    
+  border: 2px solid #c62d8f;
+}
+.home_main{
+    margin-left: 15%;
+    margin-right: 10%;
+}
+.home_section{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.status_name{
+    text-align: center;
+}
+.post{
+    width: 85%;
+    
+   
+    margin-left: 5%;
+    margin-top: 5%;
+    
+    align-items: center;
+    padding-left: 10px;
+}
+.middle_side_elemet{
+
+   
+    display: flex;
+    justify-content: space-between;
+   margin-bottom: 5px;
+}
+.post_img{
+    width: 100%;
+    object-fit: fill;
+}
+.react_postion{
+    display: flex;
+    justify-content: space-between; 
+}
+.like_share{
+    display: flex;
+    justify-content: start; 
+}
+.icons{
+    font-size: 25px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+.shareicon{
+    color: black;
+    margin-top: 6px;
+}
+.like_count{
+    
+    position: relative;
+}
+.like_avatar{
+    width:18px;
+    height: 18px;
+    border-radius: 50%;
+   
+ }
+ .avatar1{
+position: absolute;
+left: 12px;
+top: 10px;
+z-index: 1;
+ }
+ .avatar2{
+position: absolute;
+left: 0;
+top: 10px;
+z-index: 2;
+ }
+ .avatar3{
+    position: absolute;
+    left: 25px;
+    top: 10px;
+   
+     }
+     .like_value{
+        position: absolute;
+        left: 50px;
+        top: 10px; 
+     }
+     .description{
+        margin-top: 35px;
+        color: #737373;
+     }
